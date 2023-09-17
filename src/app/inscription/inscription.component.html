@@ -1,0 +1,37 @@
+
+<section class="inscription">
+  <div class="login col-lg-4 m-auto shadow-lg">
+    <div class="text-center">
+      <h1>S'inscrire</h1>
+      <h6>Inscrivez-vous</h6>
+    </div>
+    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+      <div class="mb-3">
+        <label for="exampleInputNom1" class="form-label">Nom</label>
+        <input formControlName="nom" type="text" class="form-control" id="exampleInputNom1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPrenom1" class="form-label">Prénom</label>
+        <input formControlName="prenom" type="text" class="form-control" id="exampleInputPrenom1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputAdresse1" class="form-label">Adresse</label>
+        <input formControlName="adresse" type="text" class="form-control" id="exampleInputAdresse1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputTel1" class="form-label">Télephone</label>
+        <input formControlName="tel" type="number" class="form-control" id="exampleInputTel1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Adresse e-mail</label>
+        <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+        <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <button type="submit" class="btn btn-primary col-lg-12">S'inscrire</button>
+    </form>
+  </div>
+
+</section>

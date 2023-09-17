@@ -1,0 +1,29 @@
+.connexion {
+  background-color: #eff6ff;
+  padding: 140px 100px;
+}
+.login {
+  background-color: #ffffff;
+  padding: 20px 30px;
+}
+.text-center h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333; /* Couleur de texte de votre choix */
+  margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+/* Styles pour le titre h6 */
+.text-center h4 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #666; /* Couleur de texte de votre choix */
+  margin-top: 10px; /* Espacement au-dessus du titre */
+  margin-bottom: 10px; /* Espacement sous le titre */
+}
+@media screen and (max-width: 600px) {
+  .connexion {
+    padding: 140px 50px;
+  }
+
+}

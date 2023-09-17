@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "nom": "Jebri",
+      "prenom": "Mohamed",
+      "adresse": "Gafsa",
+      "tel": 52187469,
+      "email": "mohamedjebri@gmail.com",
+      "password": "185+hsyf",
+      "id": 4
+    },
+    {
+      "nom": "Rekik",
+      "prenom": "Manel",
+      "adresse": "Monastir",
+      "tel": 52148774,
+      "email": "manel15@gmail.com",
+      "password": "mena*548",
+      "id": 5
+    }
+  ],
+  "upload": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
